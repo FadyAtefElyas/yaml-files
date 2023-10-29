@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: us-central1-docker.pkg.dev/fady-401509/my-repository/node-app:v1
+        image: us-central1-docker.pkg.dev/fady-401509/my-repository/fadyelyas/node-app:v1
         ports:
         - containerPort: 27017
         env:

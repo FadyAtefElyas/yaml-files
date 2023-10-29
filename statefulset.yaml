@@ -17,7 +17,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
       - name: mongo
-        image: us-central1-docker.pkg.dev/fady-401509/my-repository/mongo:v2
+        image: us-central1-docker.pkg.dev/fady-401509/my-repository/fadyelyas/mongo:v2
         command:
         -  docker-entrypoint.sh
         args: ["mongod", "--bind_ip_all", "--replSet", "rs0", "--auth", "--keyFile", "/tmp/my-key"]
