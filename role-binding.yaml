@@ -5,7 +5,7 @@ metadata:
   namespace: default
 subjects:
 - kind: ServiceAccount
-  name: mongo-srvice-acc
+  name: mongo-service-acc
   namespace: default
 roleRef:
   kind: Role
